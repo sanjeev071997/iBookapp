@@ -7,7 +7,6 @@
 .firebase
 .firebaserc
 .vscode
-/build
 
 # testing
 /coverage
