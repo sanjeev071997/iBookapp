@@ -64,7 +64,6 @@ html {
     }
 }
 
-
 .data-table {
     position: relative;
     width: 100%;
@@ -76,7 +75,6 @@ html {
 @media only screen and (max-width:600px) {
     .data-table {
         overflow-x: scroll;
-        /* min-height: 60vh !important; */
         height: 300px !important;
     }
 }
@@ -84,7 +82,6 @@ html {
 @media only screen and (max-width:800px) {
     .data-table {
         overflow-x: scroll;
-        /* min-height: 75vh !important; */
         height: 300px !important;
     }
 }
