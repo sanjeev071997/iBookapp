@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://ibookapps.web.app/</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/nodes</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/contact</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/email</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/dashboard</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/login</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/register</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ibookapps.web.app/forgot-password</loc>
+	<lastmod>2023-07-10T10:59:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>

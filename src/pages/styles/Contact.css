@@ -1,0 +1,55 @@
+.contact-container{
+    width: 65%;
+    padding: 45px;
+    border-radius: 0;
+    left: 50%;
+}
+.contact-row{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.col-md-7{
+    padding: 20px;
+}
+.col-md-5{
+    background: #1089ff;
+    padding: 20px;
+    color: white;
+
+}
+.form-control {
+    /* height: 52px; */
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fa-solid{
+    font-size: 20px !important;
+} 
+
+
+.d-flex p{
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d-flex p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media only screen and (max-width:600px){
+    .contact-container{
+        width: 100%;
+        /* position: absolute; */
+        left: 50%;
+        top: 90%;
+    }
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    height: 90vh;
+    overflow-y: hidden;
+}
+
+.register {
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    height: min-content;
+    border-radius: 5px;
+    /* color: white; */
+    /* background: rgb(238, 241, 243); */
+    background-color: rgb(238, 241, 243);
+}
+ 
+.register-btn{
+    font-weight: bold;
+}
+
+.authLink {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.authLink:hover{
+    color: rgba(0, 0, 0, 0.836);
+}

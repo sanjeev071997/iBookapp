@@ -1,13 +1,133 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', Arial, sans-serif !important;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active {
+    font-weight: 600 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #62727c91;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+
+.data-table-nodes {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:600px) {
+    .data-table-nodes {
+        overflow-x: scroll;
+        min-height: 30vh;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .data-table-nodes {
+        overflow-x: scroll;
+        min-height: 81vh !important;
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .data-table-nodes {
+        overflow-x: scroll;
+        min-height: 84vh !important;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .data-table-nodes {
+        min-height: 75vh;
+    }
+}
+
+
+.data-table {
+    position: relative;
+    width: 100%;
+    height: 340px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:600px) {
+    .data-table {
+        overflow-x: scroll;
+        /* min-height: 60vh !important; */
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .data-table {
+        overflow-x: scroll;
+        /* min-height: 75vh !important; */
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width:920px) {
+    .data-table {
+        min-height: 75vh !important;
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .data-table {
+        min-height: 85vh;
+    }
+}
+
+.tobNav {
+    color: black !important;
+    font-size: 16px !important;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px !important;
+    background-color: #f1f1f1;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.footer .footer-copyright {
+    font-size: 14px;
+}
+
+.dashboard-top-card .card-body {
+    border: 1px solid rgba(250, 246, 246, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .todo-date {
+       display: none;
+    }
 }
