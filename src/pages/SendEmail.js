@@ -45,7 +45,7 @@ const SendEmail = () => {
     return (
         <Layout>
             <>
-                <div className="container email-container">
+                <div className="container email-container" style={{minHeight:'100vh'}}>
                     <div className="row email-row">
                         <div className="col-md-12">
                             <h4>Send Email</h4>

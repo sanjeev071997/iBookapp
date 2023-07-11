@@ -15,6 +15,7 @@ import Error404 from './pages/Error404';
 import Contact from './pages/Contact';
 import SendEmail from './pages/SendEmail';
 import Dashboard from './pages/admin/Dashboard';
+import Chatgpt from './pages/Chatgpt';
 
 const App = () => {
 
@@ -32,6 +33,13 @@ const App = () => {
               element={
                 <ProtectedRoute>
                   <TodoHeader />
+                </ProtectedRoute>
+              } />
+
+            <Route path='/chatgpt'
+              element={
+                <ProtectedRoute>
+                  <Chatgpt />
                 </ProtectedRoute>
               } />
 
