@@ -46,7 +46,7 @@ const Contact = () => {
   }
   return (
     <Layout>
-      <div className="container contact-container">
+      <div className="container contact-container" style={{minHeight:'100vh'}}>
         <div className="row contact-row">
           <div className="col-md-7">
             <h4>Get in touch</h4>

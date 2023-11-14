@@ -45,7 +45,7 @@ const Chatgpt = () => {
               required
             />
             <Button variant="outline-secondary" type='submit' id="button-addon2">
-              <i class="fa-solid fa-paper-plane"></i>
+              <i className="fa-solid fa-paper-plane"></i>
             </Button>
           </InputGroup>
         </form>

@@ -15,10 +15,10 @@ export const userMenu = [
         path: '/email',
     },
 
-    {
-        name: 'ChatGpt',
-        path: '/chatgpt',
-    },
+    // {
+    //     name: 'ChatGpt',
+    //     path: '/chatgpt',
+    // },
 
     {
         name: 'Contact Us',
@@ -44,10 +44,10 @@ export const adminMenu = [
         path: '/email',
     },
 
-    {
-        name: 'ChatGpt',
-        path: '/chatgpt',
-    },
+    // {
+    //     name: 'ChatGpt',
+    //     path: '/chatgpt',
+    // },
 
     {
         name: 'Dashboard',

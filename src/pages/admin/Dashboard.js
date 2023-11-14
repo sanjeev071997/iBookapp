@@ -76,7 +76,7 @@ const Dashboard = () => {
 
   return (
     <Layout>
-      <div className='container mt-5'>
+      <div className='container mt-5' style={{minHeight:'100vh'}}>
         <h4>Dashboard</h4>
         <div className="row mb-12">
           <div className="col-xl-3 col-sm-3 py-2 dashboard-top-card  ">

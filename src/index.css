@@ -67,7 +67,7 @@ html {
 .data-table {
     position: relative;
     width: 100%;
-    height: 340px !important;
+    height: 450px !important;
     overflow-y: scroll;
     overflow-x: hidden;
 }

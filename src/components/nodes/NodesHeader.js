@@ -57,7 +57,7 @@ const NodesHeader = () => {
 
   return (
     <Layout>
-      <Container className="container mt-5 data-table-nodes">
+      <Container className="container mt-5 data-table-nodes" style={{minHeight:'100vh'}}>
         <Row className='justify-content-center container'>
           <input className=" form-control w-100" type="search" placeholder="Search here..." aria-label="Search" onChange={handleSearch} />
           <Tabs className='mb-1 p-0 mt-4' justify variant='pills' defaultActiveKey="tab-1" >

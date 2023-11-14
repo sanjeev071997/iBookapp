@@ -20,7 +20,7 @@ const TodoHeader = () => {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }
-      })
+      }) 
       if (res.data.success) {
         setTodo(res.data.data)
         setData(res.data.data)
@@ -56,7 +56,7 @@ const TodoHeader = () => {
   return (
     <>
       <Layout >
-        <div className='container mt-4'>
+        <div className='container mt-4'style={{minHeight:'100vh'}}>
           <div className="card-footer text-end p-2"><AddTodo /> </div>
           <input className=" form-control me-2 mb-4" type="search" placeholder="Search here..." aria-label="Search" onChange={handleSearch} />
           <div className='container card-body data-table' data-mdb-perfect-scrollbar="true"  >
